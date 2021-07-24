@@ -10,18 +10,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script
+      src="https://kit.fontawesome.com/21ffa278e7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
       defer
       src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
       integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f"
       crossorigin="anonymous"
     ></script>
-    <script src="https://kit.fontawesome.com/21ffa278e7.js" crossorigin="anonymous"></script>
+    
     <title>Portafolio</title>
   </head>
   <body>
-    <div class="action-bar-container container">
+    <div class="action-bar-container container" id="navbar">
       <div class="logo-container">
-        <img src="./assets/icons/enver-logo.png" alt="">
+        <img src="./assets/icons/enver-logo.png" alt="" />
       </div>
       <div class="nav-container">
         <svg
@@ -55,20 +59,20 @@
           </svg>
           <ul>
             <li>
-              <a href="">Home</a>
+              <a href="#navbar">Home</a>
             </li>
             <li>
-              <a href="">Who Am I</a>
+              <a href="#description">Who Am I</a>
             </li>
             <li>
-              <a href="">My Works</a>
+              <a href="#projects">My Works</a>
             </li>
           </ul>
         </nav>
       </div>
     </div>
 
-    <div class="hero-container container">
+    <div class="hero-container container" id="home">
       <div class="profile-picture-container">
         <img src="./assets/img/profile-picture.png" alt="" />
       </div>
@@ -81,7 +85,7 @@
       </div>
     </div>
 
-    <div class="description-container container">
+    <div class="description-container container" id="description">
       <h3>WHO AM I</h3>
       <p>
         Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque
@@ -101,50 +105,57 @@
       </div>
     </div>
 
-    <div class="cards-container">
-      <div class="card">
-        <img src="./assets/img/mac.jpeg" alt="">
-        <div>
-          <h4>P - 01</h4>
+    <div class="card-section" id="projects">
+      <h2 class="title-projects">Projects</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img src="./assets/img/mac.jpeg" alt="" />
+          <div>
+            <h4>P - 01</h4>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="./assets/img/mac.jpeg" alt="">
-        <div>
-          <h4>P - 02</h4>
+        <div class="card">
+          <img src="./assets/img/mac.jpeg" alt="" />
+          <div>
+            <h4>P - 02</h4>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="./assets/img/mac.jpeg" alt="">
-        <div>
-          <h4>P - 03</h4>
+        <div class="card">
+          <img src="./assets/img/mac.jpeg" alt="" />
+          <div>
+            <h4>P - 03</h4>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="./assets/img/mac.jpeg" alt="">
-        <div>
-          <h4>P - 04</h4>
+        <div class="card">
+          <img src="./assets/img/mac.jpeg" alt="" />
+          <div>
+            <h4>P - 04</h4>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="./assets/img/mac.jpeg" alt="">
-        <div>
-          <h4>P - 05</h4>
+        <div class="card">
+          <img src="./assets/img/mac.jpeg" alt="" />
+          <div>
+            <h4>P - 05</h4>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="./assets/img/mac.jpeg" alt="">
-        <div>
-          <h4>P - 06</h4>
+        <div class="card">
+          <img src="./assets/img/mac.jpeg" alt="" />
+          <div>
+            <h4>P - 06</h4>
+          </div>
         </div>
       </div>
     </div>
 
     <footer>
-        <div id="contacto">
-            <a href="https://www.linkedin.com/in/enveraguinaga/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com/EnverAguinaga" target="_blank"><i class="fab fa-twitter-square"></i></a>
-        </div>
+      <div id="contacto">
+        <a href="https://www.linkedin.com/in/enveraguinaga/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://twitter.com/EnverAguinaga" target="_blank"
+          ><i class="fab fa-twitter-square"></i
+        ></a>
+      </div>
     </footer>
 
     <script src="./script.js"></script>

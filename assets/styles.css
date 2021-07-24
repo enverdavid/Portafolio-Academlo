@@ -43,6 +43,8 @@ nav ul li a {
     display: block;
     font-size: 2rem;
     margin:  50px;
+    color: #172231;
+    font-weight: bold;
 }
 .hero-container {
     background-color: #172231;
@@ -147,14 +149,24 @@ nav ul li a {
     padding-bottom: 8px;
 }
 
+.card-section{
+    background-color: #242E3C;
+    padding-top: 40px;
+}
+.card-section .title-projects {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+    /* display: block; */
+    /* justify-self: center; */
+}
 .cards-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
     margin: auto;
-    background-color: #242E3C;
 }
 .cards-container .card {
     width: 100%;
@@ -191,7 +203,7 @@ footer div {
     border-bottom: 2px solid #21D6B0;
 }
 footer .fab {
-    font-size: 50px;
+    font-size: 400px;
     color: white;
     margin: 0 20px;
     padding-bottom: 20px;
