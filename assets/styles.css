@@ -199,6 +199,12 @@ footer {
     padding: 30px;
 }
 
+/* Borrar esto luego de la prueba */
+footer .pruebita {
+    height: 200px;
+    background-color: #63FFEC;
+}
+
 @media (min-width: 500px) {
     .cards-container .card {
         width: 80%;
