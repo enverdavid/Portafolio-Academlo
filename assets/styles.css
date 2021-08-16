@@ -1,7 +1,7 @@
 .action-bar-container {
+    height: 50px;
     display: flex;
     justify-content: space-between;
-    height: 50px;
 }
 .logo-container {
     display: flex;
@@ -108,9 +108,7 @@ nav ul li a {
     background-color: #242E3C;
     color: white;
     font-size: 1.6rem;
-    padding: 30px;
-    margin-bottom: 20px;
-    border-radius: 8px;
+    padding: 70px 30px;
 }
 .description-container h3 {
     color: #63FFEC;
@@ -120,10 +118,10 @@ nav ul li a {
 .description-container p {
     padding-bottom: 20px;
     text-align:justify;
-    /* max-width: 600px; */
 }
 .description-buttons-container {
-    text-align: center;
+    text-align: start;
+    margin-top: 10px;
 }
 .description-buttons-container .btn-hire-me {
     background-color:#E26DD7;
@@ -147,6 +145,33 @@ nav ul li a {
     padding-right: 20px;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+.skills-container {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 2rem;
+}
+.skill-item {
+    align-items: center;
+    background-color: #242E3C;
+    display: flex;
+    height: 100px;
+    margin: 20px 0;
+    width: 100%;
+}
+.vertical-light {
+    width: 10px;
+    height: 100%;
+    background-color: #63FFEC;
+    margin-right: 20px;
+}
+.iconify {
+    color: #63FFEC;
+    font-size: 50px;
+    margin-right: 20px;
 }
 
 .card-section{
@@ -196,21 +221,55 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 50px;
 }
-
-/* Borrar esto luego de la prueba */
-footer .pruebita {
-    height: 200px;
-    background-color: #63FFEC;
+.social-media-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.social-media-container .linkedin {
+    color: white;
+    margin: 7px;
+    width: 40px;
+}
+.social-media-container .twitter {
+    color: white;
+    margin: 7px;
+    width: 40px;
+}
+.horizontal-line {
+    border-bottom: solid 2px #63FFEC;
+    width: 130px;
+    margin: 0 auto;
 }
 
 @media (min-width: 500px) {
+    .description-container h3 {
+        color: #63FFEC;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .description-container p {
+        padding: 0 15vw;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .description-buttons-container {
+        text-align: center;
+        margin-top: 10px;
+    }
+
     .cards-container .card {
         width: 80%;
     }
     .skills-container {
-        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        padding: 60px 0;
+    }
+    .skill-item {
+        width: 40%;
+        margin: 30px;
     }
 
 }
@@ -268,6 +327,7 @@ footer .pruebita {
 }  
 
 @media (min-width: 1000px) {
+
     .cards-container .card {
         width: 23%;
     }
@@ -289,5 +349,10 @@ footer .pruebita {
     }
     .presentation-container .presentation-job {
         font-size: 8.5rem;
+    }
+
+    .description-container p {
+        padding: 0 25vw;
+        padding-bottom: 20px;
     }
 }
