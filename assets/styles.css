@@ -22,7 +22,7 @@
     flex-direction: column;
     height: calc(100% - 65px);
     list-style: none;
-    margin-right: 30px;
+    margin-right: 35px;
     position: fixed;
     top: -100vh;
     text-align: center;
@@ -95,11 +95,11 @@ ul.show {
 .presentation-container .presentation-job {
     color: white;
     font-size: 4.5rem;
+    font-size: 4.5rem;
     margin-bottom: 20px;
 }
 .presentation-container .address {
     color: #E26DD7;
-    margin-bottom: 20px;
     font-size: 1.6rem;
     margin-bottom: 30px;
 }
@@ -156,6 +156,9 @@ ul.show {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: 20px;
+}
+.description-buttons-container .btn-hire-me a {
+    color: white;
 }
 .description-buttons-container .btn-download-cv {
     background-color: transparent;
@@ -325,10 +328,10 @@ footer {
     }
     .presentation-container .presentation-job {
         font-size: 5rem;
+        padding-left: 0;
     }
     .presentation-container .address {
         font-size: 2rem;
-        margin-bottom: 40px;
     }
     .presentation-container .button-left {
         font-size: 1.8rem;
@@ -352,6 +355,11 @@ footer {
     .menu {
         position: fixed;
     }
+
+    .logo {
+        padding: 53px;
+    }
+
     .menu-items {
         align-items: center;
         background: none;
@@ -360,7 +368,7 @@ footer {
         width: auto;
         justify-content: flex-end;
         list-style: none;
-        margin-right: 30px;
+        margin-right: 53px;
         position: static;
         text-align: center;
     }
@@ -387,13 +395,26 @@ footer {
     .profile-picture-container img {
         max-width: 360px;
     }
+    .presentation-container .presentation-name {
+        margin-left: 2px;
+    }
     .presentation-container .presentation-job {
         font-size: 6rem;
+    }
+    .presentation-container .address {
+        margin-left: 4px;
     }
     
 }
 
 @media (min-width: 1200px) {
+    .logo {
+        padding: 68px;
+    }
+    .menu-items {
+        margin-right: 68px;
+    }
+
     .profile-picture-container img {
         max-width: 430px;
     }
@@ -401,8 +422,15 @@ footer {
         min-height: calc(100vh - 50px);
         padding-top: 130px;
     }
+
+    .presentation-container .presentation-name {
+        margin-left: 5px;
+    }
     .presentation-container .presentation-job {
         font-size: 8.5rem;
+    }
+    .presentation-container .address {
+        margin-left: 6px;
     }
 
     .description-container p {
