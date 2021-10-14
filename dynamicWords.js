@@ -1,7 +1,7 @@
 const typed = new Typed(".typed", {
     strings: [
         'Developer',
-        'Full-Stack',
+        'Front-end',
     ],
     typeSpeed: 75,
     startDealay: 300,
