@@ -261,19 +261,14 @@ footer {
     justify-content: center;
     padding-bottom: 15px;
 }
-.social-media-container .linkedin {
-    color: white;
-    margin: 7px;
-    width: 40px;
-}
-.social-media-container .twitter {
+.social-media-container .socialNetwork {
     color: white;
     margin: 7px;
     width: 40px;
 }
 .horizontal-line {
     border-bottom: solid 2px #63FFEC;
-    width: 130px;
+    width: 200px;
     margin: 0 auto;
 }
 
